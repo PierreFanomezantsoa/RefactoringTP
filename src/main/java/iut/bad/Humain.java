@@ -27,7 +27,7 @@ public class Humain implements consommation {
 	}
 	
 	public void ami(Humain hum) {
-		System.out.println(nom +" est un ami de " + hum.nom);
+		System.out.println(nom +" est un ami de " + hum.nom );
 	}
 
 }
