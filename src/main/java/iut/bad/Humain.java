@@ -1,6 +1,6 @@
 package iut.bad;
 
-public class Humain {
+public class Humain implements consommation {
 	protected String nom;
 	protected String prenom;
 	protected int age;
@@ -17,9 +17,11 @@ public class Humain {
 	public String toString() {
 		return "votre nom :" + nom + " , prénom : "+ prenom +" et " + age + " ans";
 	}
+	@Override
 	public void manger() {
 		System.out.println("Madame ou Monsieur "+ nom+ " vous êtes mangé" );
 	}
+	@Override
 	public void boire() {
 		System.out.println("Madame ou Monsieur "+ nom+ " vous êtes mangé" );
 	}
