@@ -12,6 +12,6 @@ public class Femme extends Humain{
 		Homme h= new Homme("Zandry", "miminirina",14);
 		Femme f= new Femme("Harisoa", "Fifa", 12);
 		h.ami(f);
-		f.ami(h);
+		f.ami(h,500);
 	}
 }
