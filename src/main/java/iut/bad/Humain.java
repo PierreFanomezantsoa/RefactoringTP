@@ -25,5 +25,9 @@ public class Humain implements consommation {
 	public void boire() {
 		System.out.println("Madame ou Monsieur "+ nom+ " vous êtes mangé" );
 	}
+	
+	public void ami(Humain hum) {
+		System.out.println(nom +" est un ami de " + hum.nom);
+	}
 
 }
