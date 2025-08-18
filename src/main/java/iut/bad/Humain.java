@@ -17,5 +17,11 @@ public class Humain {
 	public String toString() {
 		return "votre nom :" + nom + " , prénom : "+ prenom +" et " + age + " ans";
 	}
+	public void manger() {
+		System.out.println("Madame ou Monsieur "+ nom+ " vous êtes mangé" );
+	}
+	public void boire() {
+		System.out.println("Madame ou Monsieur "+ nom+ " vous êtes mangé" );
+	}
 
 }
