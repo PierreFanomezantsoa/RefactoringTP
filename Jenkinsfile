@@ -9,7 +9,7 @@ pipeline {
     }
 
     tools {
-        // Remplace bien par le nom exact configuré dans Administrer Jenkins > Tools (ex: '2Maven')
+        //Remplace bien par le nom exact configuré dans Administrer Jenkins > Tools (ex: '2Maven')
         maven 'Maven' 
     }
 
@@ -55,7 +55,7 @@ pipeline {
         }
     }
 
-    // 📩 SECTION POST-ACTIONS SÉCURISÉE
+    //  SECTION POST-ACTIONS SÉCURISÉE
     post {
         // 1. S'exécute uniquement si le build plante
         failure {
