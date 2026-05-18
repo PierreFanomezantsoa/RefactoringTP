@@ -10,7 +10,7 @@ pipeline {
 
     tools {
         // Remplace bien par le nom exact configuré dans Administrer Jenkins > Tools (ex: '2Maven')
-        maven '2Maven' 
+        maven 'Maven' 
     }
 
     stages {
