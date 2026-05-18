@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+    //bonjours la section environment pour centraliser les variables d'environnement utilisées dans le pipeline, ce qui facilite la maintenance et la lisibilité du code.
     environment {
         DOCKERHUB_USER = 'pierre05'
         IMAGE_NAME     = 'refactoring-tp'
