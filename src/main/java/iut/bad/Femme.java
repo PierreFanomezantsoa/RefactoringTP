@@ -1,6 +1,5 @@
 package iut.bad;
-// Classe Femme, qui hérite de la classe Humain et représente une femme
-// avec classe de consommation pour manger et boire
+
 public class Femme extends Humain{
 	
 	public Femme(String nom, String prenom, int age) {
