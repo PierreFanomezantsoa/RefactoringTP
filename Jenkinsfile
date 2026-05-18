@@ -9,7 +9,7 @@ pipeline {
     }
 
     tools {
-        maven 'Maven' 
+        maven '25Maven' 
     }
 
     stages {
