@@ -1,5 +1,6 @@
 package iut.bad;
-
+// voici la classe Humain, qui représente une personne avec un nom, un prénom et un âge
+// elle implémente l'interface consommation pour pouvoir manger et boire
 public class Humain implements consommation {
 	protected String nom;
 	protected String prenom;
