@@ -1,5 +1,5 @@
 package iut.bad;
-
+// classe Humain qui implémente l'interface consommation
 public class Humain implements consommation {
 	protected String nom;
 	protected String prenom;

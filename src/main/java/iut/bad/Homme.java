@@ -1,5 +1,5 @@
 package iut.bad;
-// c
+// classe Homme qui hérite de la classe Humain
 public class Homme extends Humain {
 	
 	public Homme(String nom, String prenom ,int age) {
